@@ -10,7 +10,7 @@ usethis::use_git_config(
 usethis::use_git()
 
 # Create a token ("login")
-usethis::create_github_token(description = "Token for Repro Workshop 2023 Test")
+usethis::create_github_token(description = "Token for Repro Workshop 2023 Test 3")
 
 # Activate scope write:packages <- do this
 
@@ -37,7 +37,7 @@ repro::automate()
 
 repro::use_gha_docker()
 
-# for sume reason it won't let me push
+usethis::browse_github_actions()
 
 
 
