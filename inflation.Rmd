@@ -67,8 +67,11 @@ We have `r nrow(mtcars)` 32 cars.
 
 Let's see if it will let me push this...
 
+<<<<<<< HEAD
 
 
 
 
+=======
+>>>>>>> 7268b911e982eba7425f0c6a337ea3f664a85cad
 
