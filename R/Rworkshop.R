@@ -24,11 +24,20 @@ usethis::gh_token_help()
 
 # to actually connect to github
 usethis::use_github()
+
+# usethis::use_git_remote("origin", url = NULL, overwrite = TRUE)
+
 # usethis::use_github(private = TRUE) make it into a private project instead
 # Note: the name of the github project is automatically, and irreversibly (!)
 # the name of your R project folder.
 # So give it an informative name (and not "Project")
 
+# Use Docker
+repro::automate()
+
+repro::use_gha_docker()
+
+# for sume reason it won't let me push
 
 
 
