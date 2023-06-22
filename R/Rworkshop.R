@@ -37,11 +37,10 @@ repro::automate()
 
 repro::use_gha_docker()
 
-<<<<<<< HEAD
 usethis::browse_github_actions()
-=======
-# for some reason it won't let me push
->>>>>>> 7268b911e982eba7425f0c6a337ea3f664a85cad
+
+
+
 
 
 
