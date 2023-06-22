@@ -50,7 +50,7 @@ inflation %>%
   ungroup() %>% 
   ggplot() +
   geom_line(aes(date, value, color = name)) +
-  NULL
+  theme_bw() + ylab("subjective inflation in %-points") + theme(legend.position = c(.1, .9))
 ```
 
 
